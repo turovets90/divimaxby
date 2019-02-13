@@ -56,6 +56,53 @@ $(document).ready(function(){
     });
 
 
+
+    $('.partners_slider_prev').click(function(){
+        $('.partners_slider').slick('slickPrev');
+    });
+
+    $('.partners_slider_next').click(function(){
+        $('.partners_slider').slick('slickNext');
+    });
+
+    if($('.partners_slider > div').length > 4){
+        $('.partners_slider').slick({
+            dots: false,
+            arrows: false,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 575,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    }else if($(window).innerWidth() < 575 && $('.partners_slider > div').length > 1){
+        $('.partners_slider').slick({
+            dots: false,
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        });
+    }else{
+        $('.partners .slick_btn_group').hide();
+    }
+
 /*
 
     if($('.serv_slider_home .serv_slider_item').length >1){
