@@ -11,76 +11,143 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="row header_row">
-          <div class="col-4 col-sm-4 col-md-2 col-xl-2 header_col1">
-            <div class="logo_block"><a class="logo_link" href="#"><img src="img/logo.svg"/></a></div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-10 col-xl-10 header_col2">
-            <div class="header_contacts">
+    <main>
+      <header>
+        <div class="container">
+          <div class="row header_row">
+            <div class="col-4 col-sm-4 col-md-2 col-xl-2 header_col1">
+              <div class="logo_block"><a class="logo_link" href="#"><img src="img/logo.svg"/></a></div>
+            </div>
+            <div class="col-6 header_col_print">
               <ul class="phones_list">
-                <li><a class="tel" href="tel:+375 (17) 242-9001">+375 (17) 242-9001</a></li>
-                <li><a class="mts" href="tel:+375 (29) 55-66-77-5">+375 (29) 55-66-77-5</a></li>
-                <li><a class="vel" href="tel:+375 (29) 6-311-211">+375 (29) 6-311-211</a></li>
+                <li class="tel"><img src="img/phone_grey.svg"> +375 (17) 242-9001; 242-9005; 233-92-06; 233-92-07</li>
+                <li class="vel"><img src="img/velcom_logo_gs.svg"> +375 (29) 6-311-211; 31-66-77-5, 66-66-792; 644-92-06</li>
+                <li class="mts"><img src="img/mts_logo_gs.svg"> +375 (29) 55-66-77-5</li>
               </ul>
+              <p>Офис и производство находится по адресу: ул. Аэродромная, 125</p>
             </div>
-            <nav class="main_menu">
-              <div class="mm_close"></div>
-              <ul class="nav">
-                <li><a href="О компании.html">О компании</a></li>
-                <li><a href="Новости.html">Новости</a></li>
-                <li><a href="Услуги.html">Услуги</a>
-                  <ul class="sub-menu">
-                    <li><a href="#">Печать листовок, буклетов</a></li>
-                    <li><a href="#">Печать брошюр, каталогов, журналов</a></li>
-                    <li><a href="#">Печать бланков, папок, блокнотов</a></li>
-                    <li><a href="#">Рекламная полиграфия, упаковка</a></li>
-                    <li><a href="#">Печать календарей</a></li>
-                    <li><a href="#">Сетка для календарей</a></li>
-                    <li><a href="#">Дизайн полиграфии</a></li>
-                    <li><a href="#">Допечатные услуги</a></li>
-                    <li><a href="#">Послепечатные услуги</a></li>
-                  </ul>
-                </li>
-                <li><a href="Портфолио.html">Портфолио</a></li>
-                <li><a href="Команда.html">Команда</a></li>
-                <li><a href="Вопрос/ответ.html">Вопрос/ответ</a></li>
-                <li><a href="Контакты.html">Контакты</a></li>
-              </ul>
-              <div class="search_block">
-                <button class="search_btn"></button>
-                <div class="serach_form_block">
-                  <form class="search_form">
-                    <button class="searchform_btn" type="submit"></button>
-                    <input class="form-control" type="text" placeholder="Поиск"/>
-                  </form>
-                </div>
+            <div class="col-6 col-sm-6 col-md-10 col-xl-10 header_col2">
+              <div class="header_contacts">
+                <ul class="phones_list">
+                  <li><a class="tel" href="tel:+375 (17) 242-9001">+375 (17) 242-9001</a></li>
+                  <li><a class="mts" href="tel:+375 (29) 55-66-77-5">+375 (29) 55-66-77-5</a></li>
+                  <li><a class="vel" href="tel:+375 (29) 6-311-211">+375 (29) 6-311-211</a></li>
+                </ul>
               </div>
-            </nav>
-          </div>
-          <div class="col-2 col-sm-2 header_col3">
-            <div class="mm_btn">
-              <button class="hamburger"><span></span><span></span><span></span></button>
+              <nav class="main_menu">
+                <div class="mm_close"></div>
+                <ul class="nav">
+                  <li><a href="О компании.html">О компании</a></li>
+                  <li><a href="Новости.html">Новости</a></li>
+                  <li><a href="Услуги.html">Услуги</a>
+                    <ul class="sub-menu">
+                      <li><a href="#">Печать листовок, буклетов</a></li>
+                      <li><a href="#">Печать брошюр, каталогов, журналов</a></li>
+                      <li><a href="#">Печать бланков, папок, блокнотов</a></li>
+                      <li><a href="#">Рекламная полиграфия, упаковка</a></li>
+                      <li><a href="#">Печать календарей</a></li>
+                      <li><a href="#">Сетка для календарей</a></li>
+                      <li><a href="#">Дизайн полиграфии</a></li>
+                      <li><a href="#">Допечатные услуги</a></li>
+                      <li><a href="#">Послепечатные услуги</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="Портфолио.html">Портфолио</a></li>
+                  <li><a href="Команда.html">Команда</a></li>
+                  <li><a href="Вопрос/ответ.html">Вопрос/ответ</a></li>
+                  <li><a href="Контакты.html">Контакты</a></li>
+                </ul>
+                <div class="search_block">
+                  <button class="search_btn"></button>
+                  <div class="serach_form_block">
+                    <form class="search_form">
+                      <button class="searchform_btn" type="submit"></button>
+                      <input class="form-control" type="text" placeholder="Поиск"/>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div class="col-2 col-sm-2 header_col3">
+              <div class="mm_btn">
+                <button class="hamburger"><span></span><span></span><span></span></button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <section class="section_main_slider">
-      <div class="main_slider">
-        <div>
-          <div class="m_slider_item" style="background-image:url(img/banner.png)">
-            <div class="container slider_content">
-              <div class="slider_caption">
-                <p class="slider_title">Цвет - наша стихия</p>
-                <div class="slider_desc">Офсетная цветная печать рекламно-представительской полиграфии, POSM, журналов и каталогов 1</div>
-                <div class="row">
-                  <div class="col-12 col-sm-12 col-md-6"><a class="btn_default" href="#" data-toggle="modal">Оформить заказ</a></div>
-                  <div class="col-12 col-sm-12 col-md-6">
-                    <div class="slick_btn_group">
-                      <button class="slick_custom_btn slick_prev"></button>
-                      <button class="slick_custom_btn slick_next"></button>
+      </header>
+      <section class="section_main_slider">
+        <div class="main_slider">
+          <div>
+            <div class="m_slider_item" style="background-image:url(img/banner.png)">
+              <div class="container slider_content">
+                <div class="slider_caption">
+                  <p class="slider_title">Цвет - наша стихия</p>
+                  <div class="slider_desc">Офсетная цветная печать рекламно-представительской полиграфии, POSM, журналов и каталогов 1</div>
+                  <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6"><a class="btn_default" href="#" data-toggle="modal">Оформить заказ</a></div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                      <div class="slick_btn_group">
+                        <button class="slick_custom_btn slick_prev"></button>
+                        <button class="slick_custom_btn slick_next"></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="m_slider_item" style="background-image:url(img/banner.png)">
+              <div class="container slider_content">
+                <div class="slider_caption">
+                  <p class="slider_title">Цвет - наша стихия</p>
+                  <div class="slider_desc">Офсетная цветная печать рекламно-представительской полиграфии, POSM, журналов и каталогов 2</div>
+                  <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6"><a class="btn_default" href="#" data-toggle="modal">Оформить заказ</a></div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                      <div class="slick_btn_group">
+                        <button class="slick_custom_btn slick_prev"></button>
+                        <button class="slick_custom_btn slick_next"></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="m_slider_item" style="background-image:url(img/banner.png)">
+              <div class="container slider_content">
+                <div class="slider_caption">
+                  <p class="slider_title">Цвет - наша стихия</p>
+                  <div class="slider_desc">Офсетная цветная печать рекламно-представительской полиграфии, POSM, журналов и каталогов 3</div>
+                  <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6"><a class="btn_default" href="#" data-toggle="modal">Оформить заказ</a></div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                      <div class="slick_btn_group">
+                        <button class="slick_custom_btn slick_prev"></button>
+                        <button class="slick_custom_btn slick_next"></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="m_slider_item" style="background-image:url(img/banner.png)">
+              <div class="container slider_content">
+                <div class="slider_caption">
+                  <p class="slider_title">Цвет - наша стихия</p>
+                  <div class="slider_desc">Офсетная цветная печать рекламно-представительской полиграфии, POSM, журналов и каталогов 4</div>
+                  <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6"><a class="btn_default" href="#" data-toggle="modal">Оформить заказ</a></div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                      <div class="slick_btn_group">
+                        <button class="slick_custom_btn slick_prev"></button>
+                        <button class="slick_custom_btn slick_next"></button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -88,326 +155,269 @@
             </div>
           </div>
         </div>
-        <div>
-          <div class="m_slider_item" style="background-image:url(img/banner.png)">
-            <div class="container slider_content">
-              <div class="slider_caption">
-                <p class="slider_title">Цвет - наша стихия</p>
-                <div class="slider_desc">Офсетная цветная печать рекламно-представительской полиграфии, POSM, журналов и каталогов 2</div>
-                <div class="row">
-                  <div class="col-12 col-sm-12 col-md-6"><a class="btn_default" href="#" data-toggle="modal">Оформить заказ</a></div>
-                  <div class="col-12 col-sm-12 col-md-6">
-                    <div class="slick_btn_group">
-                      <button class="slick_custom_btn slick_prev"></button>
-                      <button class="slick_custom_btn slick_next"></button>
+      </section>
+      <section class="services_section bg_grey">
+        <div class="container">
+          <p class="section_title"><span>Услуги</span></p>
+          <div class="row serv_list">
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
+          </div>
+        </div>
+      </section>
+      <section class="section_news">
+        <div class="container">
+          <p class="section_title"><span>Новости</span></p>
+          <div class="row news_list">
+            <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+              <article class="type_news">
+                <div class="overflow_hidden"><a class="img_thumbnail" href="#" style="background-image:url(img/image.png)"></a></div>
+                <div class="article_body"><a class="title" href="#">Цвет и цветовоспроизведение в полиграфии</a>
+                  <div class="desc">Задача организации, в особенности же укрепление и развитие структуры требуют определения и уточнения системы обучения кадров, соответствует насущным потребностям.</div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="date">15 января 2019</div>
                     </div>
+                    <div class="col-6 text-right"><a class="more" href="#">Читать далее</a></div>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
-          </div>
-        </div>
-        <div>
-          <div class="m_slider_item" style="background-image:url(img/banner.png)">
-            <div class="container slider_content">
-              <div class="slider_caption">
-                <p class="slider_title">Цвет - наша стихия</p>
-                <div class="slider_desc">Офсетная цветная печать рекламно-представительской полиграфии, POSM, журналов и каталогов 3</div>
-                <div class="row">
-                  <div class="col-12 col-sm-12 col-md-6"><a class="btn_default" href="#" data-toggle="modal">Оформить заказ</a></div>
-                  <div class="col-12 col-sm-12 col-md-6">
-                    <div class="slick_btn_group">
-                      <button class="slick_custom_btn slick_prev"></button>
-                      <button class="slick_custom_btn slick_next"></button>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+              <article class="type_news">
+                <div class="overflow_hidden"><a class="img_thumbnail" href="#" style="background-image:url(img/image.png)"></a></div>
+                <div class="article_body"><a class="title" href="#">Цвет и цветовоспроизведение в полиграфии</a>
+                  <div class="desc">Задача организации, в особенности же укрепление и развитие структуры требуют определения и уточнения системы обучения кадров, соответствует насущным потребностям.</div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="date">15 января 2019</div>
                     </div>
+                    <div class="col-6 text-right"><a class="more" href="#">Читать далее</a></div>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
           </div>
+          <div class="text-center"><a class="show_more" href="#">Больше новостей</a></div>
         </div>
-        <div>
-          <div class="m_slider_item" style="background-image:url(img/banner.png)">
-            <div class="container slider_content">
-              <div class="slider_caption">
-                <p class="slider_title">Цвет - наша стихия</p>
-                <div class="slider_desc">Офсетная цветная печать рекламно-представительской полиграфии, POSM, журналов и каталогов 4</div>
-                <div class="row">
-                  <div class="col-12 col-sm-12 col-md-6"><a class="btn_default" href="#" data-toggle="modal">Оформить заказ</a></div>
-                  <div class="col-12 col-sm-12 col-md-6">
-                    <div class="slick_btn_group">
-                      <button class="slick_custom_btn slick_prev"></button>
-                      <button class="slick_custom_btn slick_next"></button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      </section>
+      <section class="section_partners">
+        <div class="container">
+          <p class="section_title"><span>Клиенты и партнёры</span></p>
+          <div class="row partners_slider">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+              <div class="item"><img src="img/3.png"/></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+              <div class="item"><img src="img/3.png"/></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+              <div class="item"><img src="img/3.png"/></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+              <div class="item"><img src="img/3.png"/></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+              <div class="item"><img src="img/3.png"/></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+              <div class="item"><img src="img/3.png"/></div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section class="services_section bg_grey">
-      <div class="container">
-        <p class="section_title"><span>Услуги</span></p>
-        <div class="row serv_list">
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4 item"><a class="serv_item" href="#" style="background-image:url(img/listovki.jpg)"><span class="serv_name">Печать листовок, буклетов</span><span class="more">Побробнее</span></a></div>
-        </div>
-      </div>
-    </section>
-    <section class="section_news">
-      <div class="container">
-        <p class="section_title"><span>Новости</span></p>
-        <div class="row news_list">
-          <div class="col-12 col-sm-12 col-md-6 col-xl-6">
-            <article class="type_news">
-              <div class="overflow_hidden"><a class="img_thumbnail" href="#" style="background-image:url(img/image.png)"></a></div>
-              <div class="article_body"><a class="title" href="#">Цвет и цветовоспроизведение в полиграфии</a>
-                <div class="desc">Задача организации, в особенности же укрепление и развитие структуры требуют определения и уточнения системы обучения кадров, соответствует насущным потребностям.</div>
-                <div class="row">
-                  <div class="col-6">
-                    <div class="date">15 января 2019</div>
-                  </div>
-                  <div class="col-6 text-right"><a class="more" href="#">Читать далее</a></div>
-                </div>
-              </div>
-            </article>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-6">
-            <article class="type_news">
-              <div class="overflow_hidden"><a class="img_thumbnail" href="#" style="background-image:url(img/image.png)"></a></div>
-              <div class="article_body"><a class="title" href="#">Цвет и цветовоспроизведение в полиграфии</a>
-                <div class="desc">Задача организации, в особенности же укрепление и развитие структуры требуют определения и уточнения системы обучения кадров, соответствует насущным потребностям.</div>
-                <div class="row">
-                  <div class="col-6">
-                    <div class="date">15 января 2019</div>
-                  </div>
-                  <div class="col-6 text-right"><a class="more" href="#">Читать далее</a></div>
-                </div>
-              </div>
-            </article>
+          <div class="slick_btn_group">
+            <button class="partners_slider_prev"></button>
+            <button class="partners_slider_next"></button>
           </div>
         </div>
-        <div class="text-center"><a class="show_more" href="#">Больше новостей</a></div>
-      </div>
-    </section>
-    <section class="section_partners">
-      <div class="container">
-        <p class="section_title"><span>Клиенты и партнёры</span></p>
-        <div class="row partners_slider">
-          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
-            <div class="item"><img src="img/3.png"/></div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
-            <div class="item"><img src="img/3.png"/></div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
-            <div class="item"><img src="img/3.png"/></div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
-            <div class="item"><img src="img/3.png"/></div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
-            <div class="item"><img src="img/3.png"/></div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-xl-3">
-            <div class="item"><img src="img/3.png"/></div>
-          </div>
-        </div>
-        <div class="slick_btn_group">
-          <button class="partners_slider_prev"></button>
-          <button class="partners_slider_next"></button>
-        </div>
-      </div>
-    </section>
-    <section class="section_about">
-      <div class="container">
-        <p class="section_title"><span>О компании</span></p>
-        <div class="about_desc">
-          <p><img src="img/DIVIMAX.png"> - стабильная и надежная типография полного цикла. На полиграфическом рынке с 2000 года.<br> Мы специализируемся на офсетной цветной печати рекламно-представительской полиграфии, POSM, журналов, каталогов.</p>
-          <h3>Наши приоритеты:</h3>
-          <ul>
-            <li>- доверие клиентов;</li>
-            <li>- качество выпускаемой продукции;</li>
-            <li>- европейский уровень обслуживания;</li>
-            <li>- внедрение инновационных технологий производства.</li>
-          </ul>
-          <h3>Наша миссия:</h3>
-          <p>Содействие развитию белорусского рекламного рынка.</p>
-          <h3>К Вашим услугам:</h3>
-          <ul>
-            <li class="mb-2 mb-md-4"><b>1. Допечатные, печатные и послепечатные работы на собственном оборудовании.</b>  Мы не отдаем работу на сторону, т.к. репутация дороже денег.</li>
-            <li class="mb-2 mb-md-4"><b>2. Современное высокопроизводительное оборудование и постоянное внедрение полиграфических инноваций.</b> Мы гордимся тем, что вкладываем средства в технику, потому что понимаем-  не наценка дает прибыль, а оборот.</li>
-            <li class="mb-2 mb-md-4"><b>3. Штат дизайнеров, которые подчеркнут Вашу индивидуальность.</b></li>
-            <li class="mb-2 mb-md-4"><b>4. Прием файлов удаленно через FTP сервер.</b> Мы экономим Ваше время, чтобы Вы могли заниматься любимым делом!</li>
-            <li class="mb-2 mb-md-4"><b>5. Офис и производство рядом, в центре города.</b> Отличный повод заехать на экскурсию по производству или просто на кофе и познакомиться с сотрудниками.</li>
-            <li class="mb-2 mb-md-4"><b>6. Более 70 специалистов, заинтересованных в выполнении заказа аккуратно и оперативно.</b></li>
-          </ul>
-          <p class="orange"><b>СПАСИБО ЗА ДОВЕРИЕ В ВЫБОРЕ НАШЕЙ ТИПОГРАФИИ!</b></p>
-        </div>
-      </div>
-    </section>
-    <section class="section_our_team bg_grey">
-      <div class="container">
-        <p class="section_title"><span>Наша команда</span></p>
-        <div class="row our_team_list">
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4">
-            <article class="type_our_team">
-              <picture><img src="img/sfddfg.png"/></picture>
-              <div class="article_body">
-                <div class="title">Дмитрий Игоревич Данилович</div>
-                <div class="sub_title">генеральный директор</div>
-                <hr/>
-                <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
-              </div>
-            </article>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4">
-            <article class="type_our_team">
-              <picture><img src="img/sfddfg.png"/></picture>
-              <div class="article_body">
-                <div class="title">Дмитрий Игоревич Данилович</div>
-                <div class="sub_title">генеральный директор</div>
-                <hr/>
-                <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
-              </div>
-            </article>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4">
-            <article class="type_our_team">
-              <picture><img src="img/sfddfg.png"/></picture>
-              <div class="article_body">
-                <div class="title">Дмитрий Игоревич Данилович</div>
-                <div class="sub_title">генеральный директор</div>
-                <hr/>
-                <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
-              </div>
-            </article>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4">
-            <article class="type_our_team">
-              <picture><img src="img/sfddfg.png"/></picture>
-              <div class="article_body">
-                <div class="title">Дмитрий Игоревич Данилович</div>
-                <div class="sub_title">генеральный директор</div>
-                <hr/>
-                <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
-              </div>
-            </article>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4">
-            <article class="type_our_team">
-              <picture><img src="img/sfddfg.png"/></picture>
-              <div class="article_body">
-                <div class="title">Дмитрий Игоревич Данилович</div>
-                <div class="sub_title">генеральный директор</div>
-                <hr/>
-                <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
-              </div>
-            </article>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-xl-4">
-            <article class="type_our_team">
-              <picture><img src="img/sfddfg.png"/></picture>
-              <div class="article_body">
-                <div class="title">Дмитрий Игоревич Данилович</div>
-                <div class="sub_title">генеральный директор</div>
-                <hr/>
-                <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="container">
-        <div class="row f_row">
-          <div class="col-12 col-sm-12 col-md-4 col-xl-3 f_col_left">
-            <div class="f_logo_block"><a href="#"><img src="img/logo.svg"/></a></div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-8 col-xl-4 f_col_center">
-            <div class="f_menu">
-              <ul>
-                <li><a href="#">О компании</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#">Команда</a></li>
-                <li><a href="#">Вопрос/ответ</a></li>
-                <li><a href="#">Контакты</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-12 col-xl-5 f_col_right">
-            <ul class="phones_list">
-              <li class="tel">+375 (17) 242-9001; 242-9005; 233-92-06; 233-92-07</li>
-              <li class="vel">+375 (29) 6-311-211; 31-66-77-5, 66-66-792; 644-92-06</li>
-              <li class="mts">+375 (29) 55-66-77-5</li>
+      </section>
+      <section class="section_about">
+        <div class="container">
+          <p class="section_title"><span>О компании</span></p>
+          <div class="about_desc">
+            <p><img src="img/DIVIMAX.png"> - стабильная и надежная типография полного цикла. На полиграфическом рынке с 2000 года.<br> Мы специализируемся на офсетной цветной печати рекламно-представительской полиграфии, POSM, журналов, каталогов.</p>
+            <h3>Наши приоритеты:</h3>
+            <ul>
+              <li>- доверие клиентов;</li>
+              <li>- качество выпускаемой продукции;</li>
+              <li>- европейский уровень обслуживания;</li>
+              <li>- внедрение инновационных технологий производства.</li>
             </ul>
-            <p>Офис и производство находится по адресу: ул. Аэродромная, 125</p>
+            <h3>Наша миссия:</h3>
+            <p>Содействие развитию белорусского рекламного рынка.</p>
+            <h3>К Вашим услугам:</h3>
+            <ul>
+              <li class="mb-2 mb-md-4"><b>1. Допечатные, печатные и послепечатные работы на собственном оборудовании.</b>  Мы не отдаем работу на сторону, т.к. репутация дороже денег.</li>
+              <li class="mb-2 mb-md-4"><b>2. Современное высокопроизводительное оборудование и постоянное внедрение полиграфических инноваций.</b> Мы гордимся тем, что вкладываем средства в технику, потому что понимаем-  не наценка дает прибыль, а оборот.</li>
+              <li class="mb-2 mb-md-4"><b>3. Штат дизайнеров, которые подчеркнут Вашу индивидуальность.</b></li>
+              <li class="mb-2 mb-md-4"><b>4. Прием файлов удаленно через FTP сервер.</b> Мы экономим Ваше время, чтобы Вы могли заниматься любимым делом!</li>
+              <li class="mb-2 mb-md-4"><b>5. Офис и производство рядом, в центре города.</b> Отличный повод заехать на экскурсию по производству или просто на кофе и познакомиться с сотрудниками.</li>
+              <li class="mb-2 mb-md-4"><b>6. Более 70 специалистов, заинтересованных в выполнении заказа аккуратно и оперативно.</b></li>
+            </ul>
+            <p class="orange"><b>СПАСИБО ЗА ДОВЕРИЕ В ВЫБОРЕ НАШЕЙ ТИПОГРАФИИ!</b></p>
           </div>
         </div>
-      </div>
-    </footer>
-    <div class="copyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-6">
-            <p>© divimax.by, 2019</p>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6">
-            <p class="developer">Разработка сайта: <a href="www.seologic.by">www.seologic.by</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="order_call" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button class="close" data-dismiss="modal" aria-label="Close"></button>
-            <p class="m_title">Заказать звонок</p>
-            <div class="modal_form">
-              <form>
-                <div class="row">
-                  <div class="col-12 field">
-                    <input class="form-control" type="text" placeholder="Введите ваше имя"/>
-                  </div>
-                  <div class="col-12 field">
-                    <input class="form-control" type="text" placeholder="+375 __ ___ __ __"/>
-                  </div>
-                  <div class="col-12 field">
-                    <input class="form-control" type="text" placeholder="Введите ваше email"/>
-                  </div>
-                  <div class="col-12 field">
-                    <textarea class="form-control" placeholder="Введите текст сообщения"></textarea>
-                  </div>
-                  <div class="col-12 btn_block text-center">
-                    <button class="btn_default black">Отправить</button>
-                  </div>
+      </section>
+      <section class="section_our_team bg_grey">
+        <div class="container">
+          <p class="section_title"><span>Наша команда</span></p>
+          <div class="row our_team_list">
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+              <article class="type_our_team">
+                <picture><img src="img/sfddfg.png"/></picture>
+                <div class="article_body">
+                  <div class="title">Дмитрий Игоревич Данилович</div>
+                  <div class="sub_title">генеральный директор</div>
+                  <hr/>
+                  <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
                 </div>
-              </form>
+              </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+              <article class="type_our_team">
+                <picture><img src="img/sfddfg.png"/></picture>
+                <div class="article_body">
+                  <div class="title">Дмитрий Игоревич Данилович</div>
+                  <div class="sub_title">генеральный директор</div>
+                  <hr/>
+                  <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+              <article class="type_our_team">
+                <picture><img src="img/sfddfg.png"/></picture>
+                <div class="article_body">
+                  <div class="title">Дмитрий Игоревич Данилович</div>
+                  <div class="sub_title">генеральный директор</div>
+                  <hr/>
+                  <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+              <article class="type_our_team">
+                <picture><img src="img/sfddfg.png"/></picture>
+                <div class="article_body">
+                  <div class="title">Дмитрий Игоревич Данилович</div>
+                  <div class="sub_title">генеральный директор</div>
+                  <hr/>
+                  <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+              <article class="type_our_team">
+                <picture><img src="img/sfddfg.png"/></picture>
+                <div class="article_body">
+                  <div class="title">Дмитрий Игоревич Данилович</div>
+                  <div class="sub_title">генеральный директор</div>
+                  <hr/>
+                  <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+              <article class="type_our_team">
+                <picture><img src="img/sfddfg.png"/></picture>
+                <div class="article_body">
+                  <div class="title">Дмитрий Игоревич Данилович</div>
+                  <div class="sub_title">генеральный директор</div>
+                  <hr/>
+                  <div class="contacts_group"><a href="mailto:dd@divimax.com">e-mail: dd@divimax.com</a><a href="#">ICQ: 381-165-727</a></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row f_row">
+            <div class="col-12 col-sm-12 col-md-4 col-xl-3 f_col_left">
+              <div class="f_logo_block"><a href="#"><img src="img/logo.svg"/></a></div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-xl-4 f_col_center">
+              <div class="f_menu">
+                <ul>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Новости</a></li>
+                  <li><a href="#">Услуги</a></li>
+                  <li><a href="#">Портфолио</a></li>
+                  <li><a href="#">Команда</a></li>
+                  <li><a href="#">Вопрос/ответ</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-xl-5 f_col_right">
+              <ul class="phones_list">
+                <li class="tel">+375 (17) 242-9001; 242-9005; 233-92-06; 233-92-07</li>
+                <li class="vel">+375 (29) 6-311-211; 31-66-77-5, 66-66-792; 644-92-06</li>
+                <li class="mts">+375 (29) 55-66-77-5</li>
+              </ul>
+              <p>Офис и производство находится по адресу: ул. Аэродромная, 125</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6">
+              <p>© divimax.by, 2019</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6">
+              <p class="developer">Разработка сайта: <a href="www.seologic.by">www.seologic.by</a></p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/jquery.validate.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/main.js"></script>
+      <div class="modal fade" id="order_call" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button class="close" data-dismiss="modal" aria-label="Close"></button>
+              <p class="m_title">Заказать звонок</p>
+              <div class="modal_form">
+                <form>
+                  <div class="row">
+                    <div class="col-12 field">
+                      <input class="form-control" type="text" placeholder="Введите ваше имя"/>
+                    </div>
+                    <div class="col-12 field">
+                      <input class="form-control" type="text" placeholder="+375 __ ___ __ __"/>
+                    </div>
+                    <div class="col-12 field">
+                      <input class="form-control" type="text" placeholder="Введите ваше email"/>
+                    </div>
+                    <div class="col-12 field">
+                      <textarea class="form-control" placeholder="Введите текст сообщения"></textarea>
+                    </div>
+                    <div class="col-12 btn_block text-center">
+                      <button class="btn_default black">Отправить</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+      <script src="js/slick.js"></script>
+      <script src="js/jquery.validate.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/main.js"></script>
+    </main>
   </body>
 </html>
