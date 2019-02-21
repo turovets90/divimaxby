@@ -2149,3 +2149,34 @@ p.blue{
     max-width: 330px;
   }
 }
+
+
+
+
+#accordion{
+  .card{
+    margin-bottom: 10px;
+    .box-shadow(0 2px 10px rgba(0,0,0,0.15));
+    .transition(@transition_default);
+    &:hover{
+      .box-shadow(0 2px 25px rgba(0,0,0,0.25));
+    }
+    //border:1px solid @green_default;
+    .card-header{
+      cursor: pointer;
+      background: none;
+      .card_title{
+        .transition(@transition_default);
+        font-family: @font_default;
+        &[aria-expanded="true"]{
+          color: #F39954;
+        }
+      }
+      &:hover{
+        .card_title{
+          color: #F39954;
+        }
+      }
+    }
+  }
+}
